@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Market</string>
+    <string name="catalog">Каталог</string>
+    <string name="map">Карта</string>
+    <string name="search">Поиск</string>
+    <string name="account">Личный кабинет</string>
+</resources>
