@@ -26,6 +26,18 @@
                     android:host="my.market.com"
                     android:scheme="http"/>
             </intent-filter>
+            <intent-filter android:label="Example by host">
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data
+                    android:host="my.market.com"
+                    android:pathPrefix="/catalog"
+
+                    android:scheme="http"/>
+            </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity2">
